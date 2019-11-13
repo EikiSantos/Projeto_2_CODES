@@ -1,0 +1,63 @@
+.logo{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 4rem;
+	height:4rem;
+	margin-top: 4rem;
+	margin-left: 8.8rem;
+	border-style: solid;
+	border-width: 0.3rem;
+	border-color: "black";
+}
+
+.Estoque{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 2.5rem;
+	margin-left: 6.5rem;
+	width: 9rem;
+	height: 4rem;
+	border-style: solid;
+	border-width: 0.3rem;
+	border-color: "black";
+}
+
+.Pedidos{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 2.5rem;
+	margin-left: 6.5rem;
+	width: 9rem;
+	height: 4rem;
+	border-style: solid;
+	border-width: 0.3rem;
+	border-color: "black";
+}
+
+.Cozinha{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 2.5rem;
+	margin-left: 6.5rem;
+	width: 9rem;
+	height: 4rem;
+	border-style: solid;
+	border-width: 0.3rem;
+	border-color: "black";
+}
+
+.barra{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 5.5rem;
+	width: 21.85rem;
+	height: 4rem;
+	border-style: solid;
+	border-width: 0.3rem;
+	border-color: "black";
+}
