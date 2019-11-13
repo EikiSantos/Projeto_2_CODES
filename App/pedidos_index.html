@@ -1,55 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>Categoria</title>
+  <title>Pedidos</title>
   <link href="assets/css/reset.css" rel="stylesheet">
-  <link href="assets/css/style_mobile.css" rel="stylesheet">
-  <link href="assets/css/categoria_mobile.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/pedidos_index.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quattrocento&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Tenor+Sans&display=swap" rel="stylesheet">
-  <script src="assets/js/codes.js"></script>
-  <script src="assets/js/categoria.js"></script>
   <meta charset="utf-8">
   <meta name=viewport content="width=device-width,initial-scale=1">
 </head>
 <body class = "body">
   <header class="header">
-    <a href="index.html"><img src="https://picsum.photos/25/25/?random" alt="Portifólio do Bartolomeu"></a>
-    <nav>
-      <ul>
-        <li class="menu_list1"><a href="index.html">home</a></li>
-      </ul>
-    </nav>
   </header> 
   <main>
-    <div class="abertura">
-      <h1 class="topo">Projetos de {{titulo}}</h1>
-    </div>
-    <div class="main">
-      <div class="index-title">
-        <p class="p">
-          Projetos
-        </p>
-      </div>
-    </div>
-    <div class="projetos-menu">
-      {{#each projetos}}
-      <div class="projetos-menu-item1">
-        <a href="projeto.html?key={{@key}}&categ={{this.categoria}}"><img class="books-menu-item-image1" src="assets/img/{{this.imagem}}" alt="img luminaria de girafa">
-        </a>
-        <div class="books-menu-item-text1"> 
-          <p>
-            <a href="projeto.html?key={{@key}}&categ={{this.categoria}}">{{this.titulo}}</a>
-          </p>
-          <div class="descricao-menu-item-text1">
-            <p> 
-              {{this.descricao}}
-            </p>
-          </div>
-        </div>
-      </div>
-      {{/each}}
-    </div>
+    <iframe src="index.html"></iframe>
+    
+      <button id="button">aqui</button>
+  
   </main>
 </body>
 </html>
