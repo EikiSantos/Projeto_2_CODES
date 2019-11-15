@@ -1,0 +1,26 @@
+.header{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 22rem;
+	height:4rem;
+	border-style: solid;
+	border-width: 0.3rem;
+	border-color: "black";
+}
+
+.logo,.cozinha,.menu{
+	padding-right: 1rem;
+	margin-right: 4.5rem;
+	padding-left: 0.75rem;
+	padding-top: 1.3rem;
+}
+
+.logo{
+	width: 1rem;
+	height: 1rem;
+	padding-top: 1.2rem;
+	border-style: solid;
+	border-width: 0.3rem;
+	border-color: "black";
+}
