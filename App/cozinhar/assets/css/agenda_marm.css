@@ -1,6 +1,5 @@
 
 .barra-inferior{
-	margin-top: 6.90rem;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
@@ -8,7 +7,7 @@
 	height:4rem;
 	border-style: solid;
 	border-width: 0.3rem;
-	border-color: black;
+	border-color: "black";
 }
 
 .calendario,.sino,.carrinho{
@@ -70,10 +69,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 6rem;
+	width: 14rem;
 	height: 2rem;
 	margin-top: 1rem;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: black;
 }
 
@@ -87,37 +86,77 @@
 	margin-top: 0.25rem;
 }
 
-.agenda-marmitas{
+.subtitulo{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 16rem;
+	height: 2rem;
 	border-style: solid;
 	border-width: 0.3rem;
-	border-color: black;
 	background-color: white;
-	margin-top: 7.7rem;
-	margin-left: 3.5rem;
-	font-size: 1.5rem;
-	width: 15rem;
-	height: 5rem;
-	text-decoration: none;
-	color: black;
-
+	margin-left: 3rem;
+	margin-top: 1rem;
+	font-size: 1rem;
 }
 
-.o-que-cozinhar{
+.hoje,.amanha,.quarta,.quinta{
+}
+
+.hoje-title{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 15rem;
+	width: 22.5rem;
+	height: 0.5rem;
+	border-style: solid;
+	border-color: black;
+	background-color: gold;
+	margin-top: 1rem;
+	font-size: 2rem;
+}
+
+.hoje-text{
+	justify-content: center;
+	align-items: center;
+	width: 18rem;
 	height: 5rem;
 	border-style: solid;
-	border-width: 0.3rem;
 	border-color: black;
-	background-color: white;
-	margin-top: 5rem;
-	margin-left: 3.5rem;
-	font-size: 1.5rem;
-	text-decoration: none;
-	color: black;
+	margin-left: 4rem;
+	font-size:1rem;
+}
+
+.hoje1{
+	font-size: 1.1rem;
+	padding-top: 1rem;
+}
+
+.hoje2{
+	font-size: 1.1rem;
+	margin-top: 1rem;
+}
+
+.amanha-title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 22.5rem;
+	height: 0.5rem;
+	border-style: solid;
+	border-color: black;
+	background-color: gold;
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+
+.quinta-text{
+	justify-content: center;
+	align-items: center;
+	width: 18rem;
+	height: 3.2rem;
+	border-style: solid;
+	border-color: black;
+	margin-left: 4rem;
+	font-size:1rem;
 }
