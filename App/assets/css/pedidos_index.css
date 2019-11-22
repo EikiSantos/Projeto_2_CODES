@@ -1,7 +1,45 @@
-.Adicionar{
-	font-size: 1.5rem;
-	text-decoration: none;
-	color: black;
+
+.barra-inferior{
+	margin-top: 3rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 21.85rem;
+	height:4rem;
+	border-style: solid;
+	border-width: 0.3rem;
+	border-color: black;
+}
+
+.calendario,.sino,.carrinho{
+	justify-content: space-between;
+	padding: 0.4rem;
+}
+
+.calendario{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3.5rem;
+	height: 3rem;
+}
+
+.sino{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3rem;
+	height: 3rem;
+
+}
+
+.carrinho{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3rem;
+	height: 3rem;
+
 }
 
 .header{
@@ -15,103 +53,54 @@
 	border-color: "black";
 }
 
-.logo,.centro,.menu{
+.logo,.cozinha,.menu{
 	justify-content: space-between;
-	padding-right: 1rem;
-	margin-right: 4.5rem;
-	padding-left: 0.75rem;
-	padding-top: 1.3rem;
+	padding: 0.25rem;
 }
 
 .logo{
-	width: 1rem;
-	height: 1rem;
-	margin-top: 0rem;
-	margin-left: 0rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3.5rem;
+	height: 3.5rem;
 }
 
-.centro{
+.titulo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 6rem;
-	height: 1rem;
-	border-style: solid;
-	border-width: 0.1rem;
-	border-color: gold;
-	background-color: gold;
-	margin-top: 0.75rem;
-	margin-left: 0.3rem;
+	height: 2rem;
+	margin-top: 1rem;
+	font-size: 2rem;
+	color: black;
 }
+
 
 .menu{
-	width: 1rem;
-	height: 1rem;
-	border-style: solid;
-	border-width: 0.1rem;
-	border-color: gold;
-	background-color: gold;
-	margin-top: 0.75rem;
-	margin-left: 0.3rem;
-}
-
-.bloco{
-	width: 12rem;
-	height: 4.5rem;
-	border-style: solid;
-	border-width: 0.1rem;
-	border-color: gold;
-	background-color: gold;
-	margin-top: 4rem;
-	margin-left: 5rem;
-}
-
-.barra-inferior{
-	margin-top: 4.6rem;
 	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	width: 21.85rem;
-	height:4rem;
+	justify-content: center;
+	align-items: center;
+	width: 3rem;
+	height: 3rem;
+	margin-top: 0.25rem;
+}
+
+.agenda-marmitas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border-style: solid;
 	border-width: 0.3rem;
-	border-color: "black";
-}
+	border-color: black;
+	background-color: white;
+	margin-top: 3.2rem;
+	margin-left: 3.5rem;
+	font-size: 1.5rem;
+	width: 15rem;
+	height: 5rem;
+	text-decoration: none;
+	color: black;
 
-.calendario,.sino,.carrinho{
-	justify-content: space-between;
-	padding-right: 1rem;
-	margin-right: 4.5rem;
-	padding-left: 0.75rem;
-	padding-top: 1.3rem;
-}
-
-.calendario{
-	width: 1rem;
-	height: 1rem;
-	border-style: solid;
-	border-width: 0.1rem;
-	border-color: gold;
-	background-color: gold;
-	margin-top: 0.75rem;
-	margin-left: 1.28rem;
-}
-
-.sino{
-	width: 6rem;
-	height: 1rem;
-	border-style: solid;
-	border-width: 0.1rem;
-	border-color: gold;
-	background-color: gold;
-	margin-top: 0.75rem;
-	margin-left: 1.28rem;
-}
-
-.carrinho{
-	width: 1rem;
-	height: 1rem;
-	border-style: solid;
-	border-width: 0.1rem;
-	border-color: gold;
-	background-color: gold;
-	margin-top: 0.75rem;
-	margin-left: 1.28rem;
 }
