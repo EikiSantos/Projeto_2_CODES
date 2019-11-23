@@ -1,6 +1,6 @@
 
 .barra-inferior{
-	margin-top: 22.3rem;
+	margin-top: 21rem;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
@@ -93,6 +93,7 @@
     justify-content: center;
     align-items: center;
 	background-color: white;
+	margin-top: 2rem;
 }
 
 .hoje{
@@ -143,12 +144,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 1rem;
-	height: 1rem;
+	width: 0.2rem;
+	height: 0.2rem;
 	border-style: solid;
-	border-width: 0.3rem;
+	border-width: 0.05rem;
+	background-color: black;
 	border-color: black;
-	background-color: red;
 	font-size: 1.5rem;
 	text-decoration: none;
 	color: black;
