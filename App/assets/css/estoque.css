@@ -4,36 +4,38 @@
 	width: 19rem;
 	align-items: center;
 	flex-direction: row;
+	justify-content: center;
+}
+
+.bloco-principal{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .botao-mais{
-	height: 1rem;
-	width: 1.55rem;
+	text-align: center;
+	height: 2rem;
+	width: 2rem;
 	border-style: solid;
 	border-width: 0.1rem;
 	border-color: black;
-	background-color: green;
-	margin-left: 1rem;
-	margin-top: 1.25rem;
 	font-size: 2rem;
 	font-weight: bold;
-	padding-left: 0.45rem;
-	padding-bottom: 1rem;
-	text-decoration: none;
 	color: black;
+	border-radius: 1rem;
+	margin-right: 0.5rem;
 }
 
 .numero{
-	padding-left: 0.7rem;
 	display: flex;
 	align-items: center;
 	height: 2rem;
-	width: 1.7rem;
+	width: 2rem;
 	border-style: solid;
 	border-width: 0.1rem;
 	border-color: black;
-	margin-left: 1rem;
-	margin-top: 1.25rem;
 	font-size: 1.5rem;
 	font-weight: bold;
 }
@@ -42,40 +44,28 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 1.25rem;
 	height: 2rem;
 	width: 2rem;
 	border-style: solid;
 	border-width: 0.1rem;
 	border-color: black;
-	background-color: red;
-	margin-left: 1rem;
 	font-size: 3rem;
-	text-decoration: none;
 	color: black;
 	border-radius: 2rem;
+	margin-left: 0.5rem;
 }
 
 
 .marmita{
-	height: 1.35rem;
 	width: 7rem;
 	justify-content: center;
 	text-align: center;
-	margin-left: 1rem;
-	margin-top: 1.25rem;
-	padding-top: 0.5rem;
 }
 
 .botao-info{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 1.25rem;
-	height: 2rem;
-	width: 2rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
 }
 
 .info-img{
@@ -108,15 +98,13 @@
 }
 
 .barra-inferior{
-	margin-top: 6.8rem;
+	margin-top: 7.6rem;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
-	width: 21.85rem;
+	width: 22.5rem;
 	height:4rem;
-	border-style: solid;
-	border-width: 0.3rem;
-	border-color: "black";
+	background-color: #95B0FF;
 
 }
 
@@ -155,11 +143,9 @@
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
-	width: 21.85rem;
-	height:4rem;
-	border-style: solid;
-	border-width: 0.3rem;
-	border-color: "black";
+	width: 22.5rem;
+	height:4.2rem;
+	background-color: #95B0FF;
 }
 
 .logo,.cozinha,.menu{
