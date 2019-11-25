@@ -8,45 +8,41 @@
 		<link href="assets/css/style.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Quattrocento&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Tenor+Sans&display=swap" rel="stylesheet">
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
 		<meta charset="utf-8">
 		<meta name=viewport content="width=device-width,initial-scale=1">
 	</head>
-	<header class="barras">
-		<div class="bloco-vazio"></div>
-		<!--    Made by Erik Terwan    -->
-		<!--   24th of November 2015   -->
-		<!--        MIT License        -->
-    	<nav role="navigation">
-      	<div id="menuToggle">
-        <!--
-        A fake / hidden checkbox is used as click reciever,
-        so you can use the :checked selector on it.
-        -->
-        <input type="checkbox" />
-        
-        <!--
-        Some spans to act as a hamburger.
-        
-        They are acting like a real hamburger,
-        not that McDonalds stuff.
-        -->
-        <span></span>
-        <span></span>
-        <span></span>
-        
-        <!--
-        Too bad the menu has to be inside of the button
-        but hey, it's pure CSS magic.
-        -->
-        <ul id="menu">
-          <a href="Index.html"><li>Menu inicial</li></a>
-          <a href="#"><li>Configurações</li></a>
-          <a href="#"><li>Sair</li></a>
-        </ul>
-      </div>
-    </nav>
-	</header>
+		
 	<body>
+		<header class="header">
+			<div class="nav"
+     			<div class="nav-wrapper">
+         			<a href="#" data-activates="menu-mobile" class="button-collapse">
+             			<i class="material-icons">menu</i>
+         			</a>
+         			<ul class="left hide-on-med-and-down">
+             		<li><a href="#">Menu principal</a></li>
+             		<li><a href="#">Agenda</a></li>
+             		<li><a href="#">Estoque</a></li>
+             		<li><a href="#">Pedidos</a></li>
+         			</ul>
+         			<ul class="side-nav" id="menu-mobile">
+             		<li><a href="#">Menu principal</a></li>
+             		<li><a href="#">Agenda</a></li>
+             		<li><a href="#">Estoque</a></li>
+             		<li><a href="#">Pedidos</a></li>
+         			</ul>
+        		</div>
+        	</div>
+ 	  	</header>
+	  	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+		<script>
+    		$(function(){
+        		$(".button-collapse").sideNav();
+    			});
+    	</script>
 		<div class="bloco-principal">
 			<img class = "logo" src="assets/img/chef-dark.png">
 			<a class="Pedidos" href="estoque.html">
