@@ -2,28 +2,38 @@
 	display: flex;
 	height: 4.8rem;
 	width: 19rem;
-	border-style: solid;
-	border-width: 0.1rem;
-	border-color: #65C8FF;
-	background-color: #65C8FF;
-	margin-left: 1.5rem;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.bloco-principal{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .botao-mais{
-	height: 1rem;
-	width: 1.55rem;
+	margin-right: 0.5rem;
+}
+
+.botao-menos{
+	margin-left: 0.5rem;
+}
+
+.botao-mais,.botao-menos{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 2rem;
+	width: 2rem;
 	border-style: solid;
-	border-width: 0.1rem;
-	border-color: black;
-	background-color: green;
-	margin-left: 1rem;
-	margin-top: 1.25rem;
-	font-size: 2rem;
-	font-weight: bold;
-	padding-left: 0.45rem;
-	padding-bottom: 1rem;
-	text-decoration: none;
+	border-width: 0.05rem;
+	border-color: gray;
+	font-size: 1rem;
 	color: black;
+	border-radius: 2rem;
 }
 
 .numero{
@@ -32,43 +42,16 @@
 	height: 2rem;
 	width: 2rem;
 	border-style: solid;
-	border-width: 0.1rem;
+	border-width: 0.05rem;
 	border-color: black;
-	background-color: #65C8FF;
-	margin-left: 1rem;
-	margin-top: 1.25rem;
 	font-size: 1.5rem;
 	font-weight: bold;
 }
 
-.botao-menos{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 1.25rem;
-	height: 2rem;
-	width: 2rem;
-	border-style: solid;
-	border-width: 0.1rem;
-	border-color: black;
-	background-color: red;
-	margin-left: 1rem;
-	font-size: 3rem;
-	text-decoration: none;
-	color: black;
-}
-
-
 .marmita{
-	height: 1.35rem;
 	width: 7rem;
-	border-style: solid;
-	border-width: 0.1rem;
-	border-color: black;
-	background-color: #65C8FF;
-	margin-left: 1rem;
-	margin-top: 1.25rem;
-	padding-top: 0.5rem;
+	justify-content: center;
+	text-align: center;
 }
 
 .entrega{
@@ -92,93 +75,6 @@
 	color: black;
 }
 
-.barra-inferior{
-	margin-top: 0.65rem;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	width: 21.85rem;
-	height:4rem;
-	border-style: solid;
-	border-width: 0.3rem;
-	border-color: "black";
-}
-
-.calendario,.sino,.carrinho{
-	justify-content: space-between;
-	padding: 0.4rem;
-}
-
-.calendario{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 3.5rem;
-	height: 3rem;
-}
-
-.sino{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 3rem;
-	height: 3rem;
-
-}
-
-.carrinho{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 3rem;
-	height: 3rem;
-
-}
-
-.header{
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	width: 21.85rem;
-	height:4rem;
-	border-style: solid;
-	border-width: 0.3rem;
-	border-color: "black";
-}
-
-.logo,.cozinha,.menu{
-	justify-content: space-between;
-	padding: 0.25rem;
-}
-
-.logo{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 3.5rem;
-	height: 3.5rem;
-}
-
-.titulo{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 6rem;
-	height: 2rem;
-	margin-top: 1rem;
-	font-size: 2rem;
-	color: black;
-}
-
-
-.menu{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 3rem;
-	height: 3rem;
-	margin-top: 0.25rem;
-}
 
 .linha{
 	display: flex;

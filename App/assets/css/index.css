@@ -1,4 +1,4 @@
-.logo{
+.logo-principal{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -24,49 +24,6 @@
 	margin: 0.5rem;
 }
 
-.barra-inferior{
-	display: flex;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-	justify-content: space-between;
-  bottom: 0rem;
-	flex-direction: row;
-	background-color: #95B0FF;
-}
-
-.calendario,.sino,.carrinho{
-	justify-content: space-between;
-	padding: 0.4rem;
-	margin: 0.5rem;
-}
-
-.calendario{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 3.5rem;
-	height: 3rem;
-}
-
-.sino{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 3rem;
-	height: 3rem;
-
-}
-
-.carrinho{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 3rem;
-	height: 3rem;
-
-}
 
 .bloco-principal{
 	display: flex;
@@ -76,7 +33,7 @@
 }
 
 
-.nav{
+.nav-index{
 	display: flex;
 	flex-direction: row;
   justify-content: flex-end;

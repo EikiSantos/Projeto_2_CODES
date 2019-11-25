@@ -1,116 +1,9 @@
-.barra-inferior{
-	margin-top: 2.4rem;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	width: 21.85rem;
-	height:4rem;
-	border-style: solid;
-	border-width: 0.3rem;
-	border-color: black;
-}
-
-.calendario,.sino,.carrinho{
-	justify-content: space-between;
-	padding: 0.4rem;
-}
-
-.calendario{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 3.5rem;
-	height: 3rem;
-}
-
-.sino{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 3rem;
-	height: 3rem;
-
-}
-
-.carrinho{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 3rem;
-	height: 3rem;
-
-}
-
-.header{
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	width: 21.85rem;
-	height:4rem;
-	border-style: solid;
-	border-width: 0.3rem;
-	border-color: "black";
-}
-
-.logo,.cozinha,.menu{
-	justify-content: space-between;
-	padding: 0.25rem;
-}
-
-.logo{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 3.5rem;
-	height: 3.5rem;
-}
-
-.titulo{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 15rem;
-	height: 2rem;
-	margin-top: 1rem;
-	font-size: 2rem;
-	color: black;
-}
 
 
-.menu{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 3rem;
-	height: 3rem;
-	margin-top: 0.25rem;
-}
-
-.disponivel{
+.disponivel,.indisponivel{
 	display: flex;
 	width: 20rem;
 	height: 3rem;
-	border-style: solid;
-	border-width: 0.3rem;
-	border-color: black;
-	background-color: white;
-	margin-top: 1rem;
-	margin-left: 1rem;
-	text-decoration: none;
-	color: black;
-}
-
-.indisponivel{
-	display: flex;
-	width: 20rem;
-	height: 3rem;
-	border-style: solid;
-	border-width: 0.3rem;
-	border-color: black;
-	background-color: white;
-	margin-top: 1rem;
-	margin-left: 1rem;
-	text-decoration: none;
 	color: black;
 }
 
@@ -121,11 +14,10 @@
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
+	margin-left: 1rem;
 }
 
-
 .bloco2{
-	padding-bottom: 1rem;
 	justify-content: center;
 	align-items: center;
 	width: 20rem;
@@ -136,13 +28,9 @@
 }
 
 .bloco-medio{
-	margin-top: 1rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 16rem;
-	height: 2.75rem;
-	font-size: 1.5rem;
 	text-decoration: none;
 	color: black;
 }
@@ -154,11 +42,9 @@
 	width: 1rem;
 	height: 1rem;
 	border-style: solid;
-	border-width: 0.3rem;
+	border-width: 0.05rem;
 	border-color: black;
 	background-color: green;
-	font-size: 1.5rem;
-	text-decoration: none;
 	color: black;
 }
 
@@ -169,10 +55,9 @@
 	width: 1rem;
 	height: 1rem;
 	border-style: solid;
-	border-width: 0.3rem;
+	border-width: 0.05rem;
 	border-color: black;
 	background-color: red;
-	font-size: 1.5rem;
 	text-decoration: none;
 	color: black;
 }
@@ -204,6 +89,8 @@
 	border-style: solid;
 	border-width: 0.15rem;
 	border-color: "black";
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .resumo{
@@ -212,6 +99,7 @@
     justify-content: center;
     align-items: center;
     height: 10rem;
+    margin-top: 2.5rem;
 }
 
 .total{
