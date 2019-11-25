@@ -1,5 +1,5 @@
 .barra-inferior{
-	margin-top: 1rem;
+	margin-top: 2.4rem;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
@@ -7,8 +7,7 @@
 	height:4rem;
 	border-style: solid;
 	border-width: 0.3rem;
-	border-color: #95B0FF;
-	background-color: #95B0FF;
+	border-color: black;
 }
 
 .calendario,.sino,.carrinho{
@@ -50,12 +49,10 @@
 	height:4rem;
 	border-style: solid;
 	border-width: 0.3rem;
-	border-color: #95B0FF;
-	background-color: #95B0FF;
-
+	border-color: "black";
 }
 
-.logo,.cozinha,.menu{color: #FFFFFF;
+.logo,.cozinha,.menu{
 	justify-content: space-between;
 	padding: 0.25rem;
 }
@@ -76,7 +73,7 @@
 	height: 2rem;
 	margin-top: 1rem;
 	font-size: 2rem;
-	color: #FFFFFF;
+	color: black;
 }
 
 
@@ -89,58 +86,49 @@
 	margin-top: 0.25rem;
 }
 
-.bloco{
+.disponivel{
 	display: flex;
 	width: 20rem;
-	height: 5rem;
+	height: 3rem;
 	border-style: solid;
 	border-width: 0.3rem;
-	border-color: #FFFFFF;
-	background-color: #95B0FF;
+	border-color: black;
+	background-color: white;
 	margin-top: 1rem;
 	margin-left: 1rem;
-	font-size: 1.5rem;
 	text-decoration: none;
-	color: #95B0FF;
+	color: black;
 }
 
-.hoje{
+.indisponivel{
+	display: flex;
+	width: 20rem;
+	height: 3rem;
+	border-style: solid;
+	border-width: 0.3rem;
+	border-color: black;
+	background-color: white;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	text-decoration: none;
+	color: black;
+}
+
+.estoque{
 	display: flex;
 	align-items: center;
-	width: 5rem;
-	height: 0.5rem;
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	text-decoration: none;
-	color: #FFFFFF;
-	margin-top: 1.8rem;
-	margin-left: 0.5rem;
-	padding-top: 1.5rem;
+	color: black;
 	font-weight: bold;
 }
 
-.seta{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 4rem;
-	height: 3rem;
-	color: black;
-	margin-top: 1.8rem;
-	margin-left: 1.8rem;
-}
 
 .bloco2{
 	padding-bottom: 1rem;
-	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
 	width: 20rem;
-	height: 21.6rem;
-	border-style: solid;
-	border-width: 0.3rem;
-	border-color: #95B0FF;
-	background-color: #95B0FF;
 	margin-left: 1rem;
 	font-size: 1.5rem;
 	text-decoration: none;
@@ -159,7 +147,22 @@
 	color: black;
 }
 
-.bloco-pequeno{
+.bloco-disponivel{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1rem;
+	height: 1rem;
+	border-style: solid;
+	border-width: 0.3rem;
+	border-color: black;
+	background-color: green;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: black;
+}
+
+.bloco-indisponivel{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -174,6 +177,7 @@
 	color: black;
 }
 
+
 .text{
 	width: 12rem;
 	height: 2rem;
@@ -182,4 +186,35 @@
 	font-size: 1.4rem;
 	text-decoration: none;
 	color: black;
+}
+
+.texto-resumo{
+	width: 10rem;
+	text-align: center;
+	margin-top: 0.5rem;
+	font-size: 1.5rem;
+}
+
+.linha{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 22.2rem;
+	height:0.000001rem;
+	border-style: solid;
+	border-width: 0.15rem;
+	border-color: "black";
+}
+
+.resumo{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+
+.total{
+	font-size: 1.5rem;
+	padding: 0.5rem;
 }
