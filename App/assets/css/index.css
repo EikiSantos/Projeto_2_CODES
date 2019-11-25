@@ -8,23 +8,6 @@
 	margin-top: 4rem;
 }
 
-
-.Pedidos{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 15rem;
-	height: 5rem;
-	font-size: 1.5rem;
-	color: white;
-	text-decoration: none;
-	background-color: #95B0FF;
-	font-weight: bold;
-	flex-direction: column;
-	margin: 0.5rem;
-}
-
-
 .bloco-principal{
 	display: flex;
 	justify-content: center;
@@ -36,7 +19,7 @@
 .nav-index{
 	display: flex;
 	flex-direction: row;
-  justify-content: flex-end;
-  margin: 1rem;
+  	justify-content: flex-end;
+  	margin: 1rem;
+  	background-color: #F2F2F2;
 }
-
