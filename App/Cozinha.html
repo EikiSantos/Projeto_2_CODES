@@ -3,6 +3,8 @@
 
 	<head>
 		<title> COZINHA </title>
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
 		<link href="assets/css/cozinha.css" rel="stylesheet">
 		<link href="assets/css/reset.css" rel="stylesheet">
 		<link href="assets/css/style.css" rel="stylesheet">
@@ -14,13 +16,37 @@
 
 	<body>
 		<header class="header">
-			<img class="logo" src="assets/img/logo.png">
+			<a href="index.html"><img class="logo" src="assets/img/logo.png"></a>
 			<div class="titulo">
 				Cozinha
 			</div>
-			<a href="Index.html"> <img class="menu" src="assets/img/menu.png"> </a>
-		</header>
-
+			<div class="nav">
+     			<div class="nav-wrapper">
+         			<a href="#" data-activates="menu-mobile" class="button-collapse">
+		            <i class="material-icons">menu</i>
+		            </a>
+		            <ul class="left hide-on-med-and-down">
+		            <li><a href="index.html">Menu principal</a></li>
+		            <li><a href="agenda_marm.html">Agenda</a></li>
+		            <li><a href="estoque.html">Estoque</a></li>
+		            <li><a href="pedidos_index.html">Pedidos</a></li>
+		            </ul>
+		            <ul class="side-nav" id="menu-mobile">
+		            <li><a href="index.html">Menu principal</a></li>
+		            <li><a href="agenda_marm.html">Agenda</a></li>
+		            <li><a href="estoque.html">Estoque</a></li>
+		            <li><a href="pedidos_index.html">Pedidos</a></li>
+		            </ul>
+        		</div>
+        	</div>
+ 	  	</header>
+	  	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+		<script>
+    		$(function(){
+        		$(".button-collapse").sideNav();
+    			});
+    	</script>
 		<a class="agenda-marmitas" href="agenda_marm.html">
 			Agenda de Marmitas
 		</a>
