@@ -6,12 +6,12 @@ function getValue(total) {
 
 
 function setValue(total, value) {
-	total.innerHTML = 'Total: ' + value
+	total.innerHTML = ' ' + value
 }
 
 
-function clear(number) {
-	number.innerHTML = '0'
+function clear(total) {
+	total.innerHTML = '0'
 }
 
 
@@ -20,9 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	let total = document.querySelector('.total')
 	setValue(total, 0)
 
-	let number = document.querySelector('.number')
-	clear(number)
-
 	let keys
 
 	keys = document.querySelectorAll('.com')
@@ -30,13 +27,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	for(let key of keys) {
 		key.addEventListener('click', function() {
 			if(key.innerHTML == '-') {
-				sub(total, parseInt(number.innerHTML))
-				clear(number)
+				sub(total, parseInt(total.innerHTML))
 			}
-			
+
 			if(key.innerHTML == '+') {
-				add(total, parseInt(number.innerHTML))
-				clear(number)
+				add(total, parseInt(total.innerHTML))	
 			}
 		})
 	}

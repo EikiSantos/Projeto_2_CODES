@@ -1,8 +1,7 @@
 let history = []
 
 
-function add(total, number) {
-	history.push(number)
+function add(total) {
 
 	let prev = getValue(total)
 
@@ -11,9 +10,7 @@ function add(total, number) {
 	setValue(total, curr)
 }
 
-function sub(total, number) {
-
-	history.push(number)
+function sub(total) {
 
 	let prev = getValue(total)
 
@@ -25,4 +22,5 @@ function sub(total, number) {
 
 	}
 }
+
 
