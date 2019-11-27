@@ -63,13 +63,17 @@ iframe {
 	background-color: #95B0FF;
 }
 
+
 .titulo{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 15rem;
+	height: 2rem;
+	margin-top: 1rem;
 	font-size: 2rem;
+	color: #FFFFFF;
 }
-
 /*footer*/
 .barra-inferior{
 	display: flex;
