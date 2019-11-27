@@ -27,11 +27,14 @@ document.addEventListener('DOMContentLoaded', function() {
 	for(let key of keys) {
 		key.addEventListener('click', function() {
 			if(key.innerHTML == '-') {
-				sub(total, parseInt(total.innerHTML))
+				sub(total)
 			}
 
 			if(key.innerHTML == '+') {
-				add(total, parseInt(total.innerHTML))	
+				add(total)	
+			}
+			if(key.innerHTML == 'C') {
+				clear (total)
 			}
 		})
 	}

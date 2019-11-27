@@ -9,8 +9,10 @@
 .header{
 	padding-bottom: 0.5rem;
 }
-
-
+.botao-info{
+	height: 1rem;
+	width: 1rem;
+}
 
 .menu{
 	display: flex;

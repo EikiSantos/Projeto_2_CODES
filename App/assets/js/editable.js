@@ -22,5 +22,12 @@ function sub(total) {
 
 	}
 }
+function undo(total) {
+	let prev = getValue(total)
+	let curr = 0
+
+    setValue(total, curr)
+}
+
 
 
