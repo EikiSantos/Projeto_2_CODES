@@ -37,6 +37,16 @@ iframe {
 	width: 3.5rem;
 	height: 3.5rem;
 }
+.back{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 0.7rem;
+	margin-top: 0.2rem;
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
 .nav-index{
 	display: flex;
 	flex-direction: row;
