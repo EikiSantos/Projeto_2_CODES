@@ -1,0 +1,198 @@
+.marmita-box{
+	display: flex;
+	height: 4.8rem;
+	width: 19rem;
+	border-style: solid;
+	border-width: 0.1rem;
+	border-color: gold;
+	background-color: gold;
+	margin-left: 1.5rem;
+}
+
+.botao-mais{
+	height: 1rem;
+	width: 1.55rem;
+	border-style: solid;
+	border-width: 0.1rem;
+	border-color: black;
+	background-color: green;
+	margin-left: 1rem;
+	margin-top: 1.25rem;
+	font-size: 2rem;
+	font-weight: bold;
+	padding-left: 0.45rem;
+	padding-bottom: 1rem;
+	text-decoration: none;
+	color: black;
+}
+
+.numero{
+	padding-left: 0.7rem;
+	display: flex;
+	align-items: center;
+	height: 2rem;
+	width: 1.3rem;
+	border-style: solid;
+	border-width: 0.1rem;
+	border-color: black;
+	background-color: gold;
+	margin-left: 1rem;
+	margin-top: 1.25rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.botao-menos{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1.25rem;
+	height: 2rem;
+	width: 2rem;
+	border-style: solid;
+	border-width: 0.1rem;
+	border-color: black;
+	background-color: red;
+	margin-left: 1rem;
+	font-size: 3rem;
+	text-decoration: none;
+	color: black;
+}
+
+
+.marmita{
+	height: 1.35rem;
+	width: 7rem;
+	border-style: solid;
+	border-width: 0.1rem;
+	border-color: black;
+	background-color: gold;
+	margin-left: 1rem;
+	margin-top: 1.25rem;
+	padding-top: 0.5rem;
+}
+
+.entrega{
+	margin-top: 1.85rem;
+	margin-left: 0.8rem;
+	width: 20rem;
+	height: 4rem;
+	font-size: 2rem;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+.horario{
+	margin-left: 0.8rem;
+	width: 20rem;
+	height: 4rem;
+	font-size: 2rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.barra-inferior{
+	margin-top: 0.65rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 21.85rem;
+	height:4rem;
+	border-style: solid;
+	border-width: 0.3rem;
+	border-color: "black";
+}
+
+.calendario,.sino,.carrinho{
+	justify-content: space-between;
+	padding: 0.4rem;
+}
+
+.calendario{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3.5rem;
+	height: 3rem;
+}
+
+.sino{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3rem;
+	height: 3rem;
+
+}
+
+.carrinho{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3rem;
+	height: 3rem;
+
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 21.85rem;
+	height:4rem;
+	border-style: solid;
+	border-width: 0.3rem;
+	border-color: "black";
+}
+
+.logo,.cozinha,.menu{
+	justify-content: space-between;
+	padding: 0.25rem;
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3.5rem;
+	height: 3.5rem;
+}
+
+.titulo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 6rem;
+	height: 2rem;
+	margin-top: 1rem;
+	font-size: 2rem;
+	color: black;
+}
+
+
+.menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3rem;
+	height: 3rem;
+	margin-top: 0.25rem;
+}
+
+.linha{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 22.2rem;
+	height:0.000001rem;
+	border-style: solid;
+	border-width: 0.15rem;
+	border-color: "black";
+}
+
+.bloco{
+	text-decoration: none;
+	color: black;
+}

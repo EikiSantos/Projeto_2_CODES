@@ -1,0 +1,108 @@
+
+
+.disponivel,.indisponivel{
+	display: flex;
+	width: 20rem;
+	height: 3rem;
+	color: black;
+}
+
+.estoque{
+	display: flex;
+	align-items: center;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	margin-left: 1rem;
+}
+
+.bloco2{
+	justify-content: center;
+	align-items: center;
+	width: 20rem;
+	margin-left: 1rem;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: black;
+}
+
+.bloco-medio{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+}
+
+.bloco-disponivel{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1rem;
+	height: 1rem;
+	border-style: solid;
+	border-width: 0.05rem;
+	border-color: black;
+	background-color: green;
+	color: black;
+}
+
+.bloco-indisponivel{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1rem;
+	height: 1rem;
+	border-style: solid;
+	border-width: 0.05rem;
+	border-color: black;
+	background-color: red;
+	text-decoration: none;
+	color: black;
+}
+
+
+.text{
+	width: 12rem;
+	height: 2rem;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+	font-size: 1.4rem;
+	text-decoration: none;
+	color: black;
+}
+
+.texto-resumo{
+	width: 10rem;
+	text-align: center;
+	margin-top: 0.5rem;
+	font-size: 1.5rem;
+}
+
+.linha{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 22.2rem;
+	height:0.000001rem;
+	border-style: solid;
+	border-width: 0.15rem;
+	border-color: "black";
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.resumo{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    margin-top: 2.5rem;
+}
+
+.total{
+	font-size: 1.5rem;
+	padding: 0.5rem;
+}

@@ -1,0 +1,34 @@
+.logo-principal{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 7.5rem;
+	height: 7.5rem;
+	padding: 0.5rem;
+	margin-top: 2rem;
+	margin-right: 1rem;
+}
+
+.bloco-principal{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.Pedidos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 15rem;
+	height: 5rem;
+	font-size: 1.5rem;
+	color: white;
+	text-decoration: none;
+	background-color: #95B0FF;
+	font-weight: bold;
+	flex-direction: column;
+	margin: 0.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+}
