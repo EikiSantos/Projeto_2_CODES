@@ -14,17 +14,13 @@
 	justify-content: center;
 }
 
-.botao-mais{
-	margin-right: 0.5rem;
-}
+
 
 .info{
 	width: 3rem;
 	height: 3rem;
 }
-.botao-menos{
-	margin-left: 0.5rem;
-}
+
 
 .com{
 	display: flex;
