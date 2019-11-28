@@ -14,28 +14,6 @@
 	justify-content: center;
 }
 
-.botao-mais{
-	margin-right: 0.5rem;
-}
-
-.botao-menos{
-	margin-left: 0.5rem;
-}
-
-.botao-mais,.botao-menos{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 2rem;
-	width: 2rem;
-	border-style: solid;
-	border-width: 0.05rem;
-	border-color: gray;
-	font-size: 1rem;
-	color: black;
-	border-radius: 2rem;
-}
-
 .numero{
 	display: flex;
 	align-items: center;
@@ -46,6 +24,8 @@
 	border-color: black;
 	font-size: 1.5rem;
 	font-weight: bold;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 .marmita{
@@ -73,5 +53,64 @@
 	color: black;
 }
 
+.botao-mais,.botao-menos{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 2rem;
+	width: 2rem;
+	border-style: solid;
+	border-width: 0.05rem;
+	border-color: gray;
+	font-size: 1rem;
+	color: black;
+	border-radius: 2rem;
+}
 
+.info{
+	width: 3rem;
+	height: 3rem;
+}
+
+.com{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 2rem;
+	width: 2rem;
+	border-style: solid;
+	border-width: 0.05rem;
+	border-color: gray;
+	font-size: 1rem;
+	color: black;
+	border-radius: 2rem;
+}
+
+.com:active{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 2rem;
+	width: 2rem;
+	border-style: solid;
+	border-width: 0.05rem;
+	border-color: gray;
+	font-size: 1rem;
+	color: black;
+	border-radius: 2rem;
+}
+
+.total{
+	display: flex;
+	align-items: center;
+	height: 2rem;
+	width: 2rem;
+	border-style: solid;
+	border-width: 0.05rem;
+	border-color: black;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
 
