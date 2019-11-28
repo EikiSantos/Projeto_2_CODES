@@ -119,3 +119,8 @@ iframe {
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+
+.test{
+	height: 2rem;
+	width: 2rem;
+}
