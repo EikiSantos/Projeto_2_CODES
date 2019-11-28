@@ -73,11 +73,11 @@
 }
 
 .entrega{
-	margin-top: 1.85rem;
+	margin-top: 1rem;
 	margin-left: 0.8rem;
-	width: 20rem;
+	width: 10rem;
 	height: 4rem;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	color: black;
 	text-decoration: none;
@@ -85,9 +85,9 @@
 
 .horario{
 	margin-left: 0.8rem;
-	width: 20rem;
+	width: 5rem;
 	height: 4rem;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	text-decoration: none;
 	color: black;
