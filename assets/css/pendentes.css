@@ -15,7 +15,6 @@
 	display: flex;
 	width: 25rem;
 	height: 5rem;
-	border-style: solid;
 	border-width: 0.3rem;
 	border-color: #FFFFFF;
 	background-color: #95B0FF;
@@ -23,7 +22,6 @@
 	margin-left: 0.5rem;
 	font-size: 1.5rem;
 	text-decoration: none;
-	color: #95B0FF;
 }
 
 .hoje{
