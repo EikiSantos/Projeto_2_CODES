@@ -5,14 +5,12 @@ body {
     font-family: sans-serif;
     background-color: #F2F2F2;
 }
-footer {
-	background-color: #ffffff;
-}
+
 header {
 	background-color: #F2F2F2;
 }
 iframe {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 
 /* comum para todos*/
@@ -22,7 +20,7 @@ iframe {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
-	background-color: #95B0FF;
+	background-color: #313D78;
 }
 
 .logo,.cozinha,.menu{
@@ -36,6 +34,7 @@ iframe {
 	align-items: center;
 	width: 3.5rem;
 	height: 3.5rem;
+	background-color: #313D78;
 }
 .back{
 	display: flex;
@@ -60,7 +59,7 @@ iframe {
 	align-items: center;
 	width: 3.5rem;
 	height: 3.5rem;
-	background-color: #95B0FF;
+	background-color: #313D78;
 }
 
 
@@ -73,18 +72,18 @@ iframe {
 	margin-top: 1rem;
 	font-size: 2rem;
 	color: #FFFFFF;
+	font-family: 'Roboto Slab', serif;
 }
 /*footer*/
 .barra-inferior{
 	display: flex;
   	position: fixed;
-  	left: 0;
-  	bottom: 0;
   	width: 100%;
 	justify-content: space-between;
   	bottom: 0rem;
 	flex-direction: row;
-	background-color: #95B0FF;
+	background-color: #313D78;
+	border-color: #313D78;
 }
 
 .calendario,.sino,.carrinho{
@@ -93,4 +92,34 @@ iframe {
 	margin: 0.3rem;
 	width: 3rem;
 	height: 3rem;
+}
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.test{
+	height: 2rem;
+	width: 2rem;
 }

@@ -5,11 +5,12 @@
 		<title> ESTOQUE </title>
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
-		<link href="assets/css/estoque.css" rel="stylesheet">
 		<link href="assets/css/reset.css" rel="stylesheet">
 		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/estoque.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab&display=swap" rel="stylesheet">
 		<script src="assets/js/editable.js"></script>
-        <script src="assets/js/estoque.js"></script>
+        <script src="assets/js/readonly.js"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
@@ -23,19 +24,19 @@
 			<div class="nav">
      			<div class="nav-wrapper">
          			<a href="#" data-activates="menu-mobile" class="button-collapse">
-             			<i class="material-icons">menu</i>
+             			<img class="test" src="assets/img/menu.png"></img>
          			</a>
          			<ul class="left hide-on-med-and-down">
              		<li><a href="tela_inicial.html">Menu principal</a></li>
-		            <li><a href="Cozinha.html">Cozinha</a></li>
-		            <li><a href="estoque.html">Estoque</a></li>
-		            <li><a href="pedidos_index.html">Pedidos</a></li>
-		            </ul>
-		            <ul class="side-nav" id="menu-mobile">
-		            <li><a href="tela_inicial.html">Menu principal</a></li>
-		            <li><a href="Cozinha.html">Cozinha</a></li>
-		            <li><a href="estoque.html">Estoque</a></li>
-		            <li><a href="pedidos_index.html">Pedidos</a></li>
+             		<li><a href="agenda_marm.html">Agenda</a></li>
+             		<li><a href="estoque.html">Estoque</a></li>
+             		<li><a href="pedidos_index.html">Pedidos</a></li>
+         			</ul>
+         			<ul class="side-nav" id="menu-mobile">
+             		<li><a href="tela_inicial.html">Menu principal</a></li>
+             		<li><a href="agenda_marm.html">Agenda</a></li>
+             		<li><a href="estoque.html">Estoque</a></li>
+             		<li><a href="pedidos_index.html">Pedidos</a></li>
          			</ul>
         		</div>
         	</div>
@@ -48,6 +49,7 @@
         		$(".button-collapse").sideNav();
     			});
     	</script>
+    	<a href="tela_inicial.html"><img class="back" src="assets/img/seta_pra_tras.png"></a>
 		<div class="bloco-principal">
 		<div class="marmita-box">
 			<div class="key com">-</div>
@@ -56,58 +58,74 @@
             </div>
             <div class="key com">+</div>
 			<div class="marmita">
-				Carne
-			</div>
-			<div class="botao-info">
-				<a href="Info_Frango.html"><img class="info-img" src="assets/img/info.png"></a>
-			</div>
-		</div>
-		<div class="marmita-box">
-			<div class="botao-mais">
-				+
-			</div>
-			<div class="numero">1
-			</div>
-			<div class="botao-menos">
-				-
-			</div>
-			<div class="marmita">
 				Arroz
 			</div>
 			<div class="botao-info">
-				<a href="Info_Arroz.html"><img class="info-img" src="assets/img/info.png"></a>
+				<a href="Info_arroz.html"><img class="info-img" src="assets/img/info.png"></a>
 			</div>
 		</div>
 		<div class="marmita-box">
 			<div class="botao-mais">
-				+
+				-
 			</div>
-			<div class="numero">5
+			<div class="numero">8
 			</div>
 			<div class="botao-menos">
+				+
+			</div>
+			<div class="marmita">
+				Carne
+			</div>
+			<div class="botao-info">
+				<a href="Info_carne.html"><img class="info-img" src="assets/img/info.png"></a>
+			</div>
+		</div>
+		<div class="marmita-box">
+			<div class="botao-mais">
 				-
+			</div>
+			<div class="numero">2
+			</div>
+			<div class="botao-menos">
+				+
+			</div>
+			<div class="marmita">
+				Frango
+			</div>
+			<div class="botao-info">
+				<a href="Info_frango.html"><img class="info-img" src="assets/img/info.png"></a>
+			</div>
+		</div>
+		<div class="marmita-box">
+			<div class="botao-mais">
+				-
+			</div>
+			<div class="numero">3
+			</div>
+			<div class="botao-menos">
+				+
 			</div>
 			<div class="marmita">
 				Feijao
 			</div>
 			<div class="botao-info">
-				<a href="Info_Feijao.html"><img class="info-img" src="assets/img/info.png"></a>
+				<a href="Info_feijao.html"><img class="info-img" src="assets/img/info.png"></a>
 			</div>
 		</div>
 		<div class="marmita-box">
 			<div class="botao-mais">
-				+
+				-
 			</div>
-			<div class="numero">7
+			<div class="numero">6
 			</div>
 			<div class="botao-menos">
-				-
+				+
 			</div>
 			<div class="marmita">
 				Cebola
 			</div>
 			<div class="botao-info">
-				<a href="Info_Cebola.html"><img class="info-img" src="assets/img/info.png"></a>
+				<a href="Info_cebola.html"><img class="info-img" src="assets/img/info.png"></a>
 			</div>
 		</div>
 		</div>

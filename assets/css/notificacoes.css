@@ -5,8 +5,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-	background-color: white;
 	margin-top: 2rem;
+	height: 5rem;
+	background-color: #95B0FF;
 }
 
 
@@ -52,5 +53,6 @@
 	font-size: 1.4rem;
 	text-decoration: none;
 	color: black;
+	font-family: 'PT Sans', sans-serif;
 }
 

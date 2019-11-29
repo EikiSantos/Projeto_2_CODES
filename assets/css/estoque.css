@@ -1,8 +1,7 @@
 .marmita-box{
 	display: flex;
-	height: 4.8rem;
+	height: 4rem;
 	width: 19rem;
-	margin-top: 1rem;
 	margin-bottom: 1rem;
 	align-items: center;
 	flex-direction: row;
@@ -32,9 +31,13 @@
 }
 
 .marmita{
+	display: flex;
 	width: 7rem;
+	height: 2rem;
 	justify-content: center;
 	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	align-items: center;
 }
 
 .botao-info{
@@ -68,6 +71,7 @@
 	font-size: 1rem;
 	color: black;
 	border-radius: 2rem;
+	background-color: #D9E9ED;
 }
 
 .info{
@@ -87,6 +91,7 @@
 	font-size: 1rem;
 	color: black;
 	border-radius: 2rem;
+	background-color: #D9E9ED;
 }
 
 .com:active{
@@ -101,6 +106,7 @@
 	font-size: 1rem;
 	color: black;
 	border-radius: 2rem;
+	background-color: #D9E9ED;
 }
 
 .total{
