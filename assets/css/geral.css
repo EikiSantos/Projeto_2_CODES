@@ -29,52 +29,28 @@
 	align-items: center;
 	width: 16rem;
 	height: 2rem;
-	border-style: solid;
-	border-color: #95B0FF;
-	border-width: 0.3rem;
 	background-color: #95B0FF;
 	color: #FFFFFF;
 	margin-left: 3rem;
-	margin-top: 1rem;
+	margin-bottom: 0.5rem;
 	font-size: 1rem;
 }
 
 
-.hoje-title{
+.hoje-text{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 22.5rem;
-	height: 0.5rem;
-	border-style: solid;
-	border-color: black;
-	background-color: #95B0FF;
-	margin-top: 1rem;
-	font-size: 2rem;
+	flex-direction: column;
 }
 
-.hoje-text{
-	justify-content: center;
-	align-items: center;
-	width: 18rem;
-	height: 5rem;
-	border-style: solid;
-	border-color: black;
-	margin-left: 4rem;
-	font-size:1rem;
-}
-
-.hoje1{
+.hoje{
 	font-size: 1.1rem;
 	padding-top: 1rem;
 }
 
-.hoje2{
-	font-size: 1.1rem;
-	margin-top: 1rem;
-}
 
-.amanha-title{
+.title{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -82,7 +58,7 @@
 	height: 0.5rem;
 	border-style: solid;
 	border-color: black;
-	background-color: #95B0FF;
+	background-color: #D9E9ED;
 	font-size: 2rem;
 	margin-top: 2rem;
 }
