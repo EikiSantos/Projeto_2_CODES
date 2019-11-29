@@ -21,6 +21,7 @@
 	height:2.5rem;
 	background-color: #95B0FF; 
 	justify-content: center;
+	font-family: 'Roboto Slab', serif;
 }
 
 .bloco2{
@@ -70,6 +71,7 @@
 	font-size: 1.4rem;
 	text-decoration: none;
 	color: black;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .texto-resumo{
@@ -77,6 +79,7 @@
 	text-align: center;
 	margin-top: 0.5rem;
 	font-size: 1.5rem;
+	font-family: 'PT Sans', sans-serif;
 }
 
 
