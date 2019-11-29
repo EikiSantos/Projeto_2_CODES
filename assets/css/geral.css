@@ -34,6 +34,7 @@
 	margin-left: 3rem;
 	margin-bottom: 0.5rem;
 	font-size: 1rem;
+	font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -47,6 +48,7 @@
 .hoje{
 	font-size: 1.1rem;
 	padding-top: 1rem;
+	font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -61,6 +63,7 @@
 	background-color: #D9E9ED;
 	font-size: 2rem;
 	margin-top: 2rem;
+	font-family: 'Roboto Slab', serif;
 }
 
 .quinta-text{
