@@ -22,7 +22,7 @@ iframe {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
-	background-color: #95B0FF;
+	background-color: #313D78;
 }
 
 .logo,.cozinha,.menu{
@@ -36,6 +36,7 @@ iframe {
 	align-items: center;
 	width: 3.5rem;
 	height: 3.5rem;
+	background-color: #313D78;
 }
 .back{
 	display: flex;
@@ -60,7 +61,7 @@ iframe {
 	align-items: center;
 	width: 3.5rem;
 	height: 3.5rem;
-	background-color: #95B0FF;
+	background-color: #313D78;
 }
 
 
@@ -84,7 +85,8 @@ iframe {
 	justify-content: space-between;
   	bottom: 0rem;
 	flex-direction: row;
-	background-color: #95B0FF;
+	background-color: #313D78;
+	border-color: #313D78;
 }
 
 .calendario,.sino,.carrinho{
