@@ -4,9 +4,7 @@
 	align-items: center;
 	width: 7.5rem;
 	height: 7.5rem;
-	padding: 0.5rem;
 	margin-top: 2rem;
-	margin-right: 1rem;
 }
 
 .bloco-principal{
@@ -22,11 +20,10 @@
 	align-items: center;
 	width: 15rem;
 	height: 5rem;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	color: white;
 	text-decoration: none;
 	background-color: #95B0FF;
-	font-weight: bold;
 	flex-direction: column;
 	margin: 0.5rem;
 	margin-top: 1rem;
@@ -50,4 +47,12 @@
 	margin: 0.45rem;
 	width: 3.3rem;
 	height: 3.3rem;
+}
+
+.marmitech{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 2rem;
+	margin: 0.5rem;
+	font-weight: bold;
+	color: #313D78;
 }
