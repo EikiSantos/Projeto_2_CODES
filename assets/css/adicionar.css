@@ -34,6 +34,7 @@
 	font-size: 1rem;
 	color: black;
 	border-radius: 2rem;
+	background-color: #D9E9ED;
 }
 
 .com:active{
@@ -48,6 +49,7 @@
 	font-size: 1rem;
 	color: black;
 	border-radius: 2rem;
+	background-color: #D9E9ED;
 }
 
 .total{
@@ -86,6 +88,7 @@
 	font-size: 1rem;
 	color: black;
 	border-radius: 2rem;
+	background-color: #D9E9ED;
 }
 
 .horario{
