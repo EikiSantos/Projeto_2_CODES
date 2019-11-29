@@ -13,30 +13,29 @@
 
 .bloco{
 	display: flex;
-	width: 25rem;
+	width: 100%;
 	height: 5rem;
 	border-width: 0.3rem;
 	border-color: #FFFFFF;
 	background-color: #95B0FF;
-	margin-top: 1rem;
-	margin-left: 0.5rem;
 	font-size: 1.5rem;
 	text-decoration: none;
+	justify-content: center;
+	align-items: center;
 }
 
 .hoje{
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	width: 15rem;
 	height: 0.5rem;
 	font-size: 2rem;
 	text-decoration: none;
 	color: #FFFFFF;
-	margin-top: 1.2rem;
-	margin-left: 0.5rem;
-	padding-top: 1.5rem;
 	font-weight: bold;
 	font-family: 'Roboto Slab', serif;
+	text-align: center;
 }
 
 .seta{
@@ -51,28 +50,18 @@
 }
 
 .bloco2{
-	padding-bottom: 1rem;
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	width: 22.5rem;
-	height: 5rem;
-	border-style: solid;
-	border-width: 0.3rem;
-	border-color: #95B0FF;
-	background-color: #95B0FF;
-	margin-left: 1rem;
 	margin-top: 2rem;
-	text-decoration: none;
-	color: black;
+	margin-bottom: 2rem;
 }
 
 
 .text{
 	width: 15rem;
-	height: 2rem;
-	margin-left: -5rem;
-	margin-top: 0.5rem;
+	margin: 1rem;
 	font-size: 1.6rem;
 	text-decoration: none;
 	color: black;
