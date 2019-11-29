@@ -37,6 +37,7 @@
 	margin-left: 0rem;
 	padding-top: 1rem;
 	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
 }
 
 
@@ -94,4 +95,5 @@
 	font-size: 1.4rem;
 	text-decoration: none;
 	color: black;
+	font-family: 'PT Sans', sans-serif;
 }
