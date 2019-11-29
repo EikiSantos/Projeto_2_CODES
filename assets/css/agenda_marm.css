@@ -56,20 +56,19 @@
 	margin-top: 0.25rem;
 }
 
+
 .subtitulo{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 16rem;
 	height: 2rem;
-	border-style: solid;
-	border-color: #95B0FF;
-	border-width: 0.3rem;
 	background-color: #95B0FF;
 	color: #FFFFFF;
 	margin-left: 3rem;
-	margin-top: 1rem;
+	margin-bottom: 0.5rem;
 	font-size: 1rem;
+	font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -81,8 +80,8 @@
 	height: 0.5rem;
 	border-style: solid;
 	border-color: black;
-	background-color: #95B0FF;
-	margin-top: 1rem;
+	background-color: #D9E9ED;
+	margin-top: 2rem;
 	font-size: 2rem;
 	font-family: 'Roboto Slab', serif;
 }
@@ -118,7 +117,7 @@
 	height: 0.5rem;
 	border-style: solid;
 	border-color: black;
-	background-color: #95B0FF;
+	background-color: #D9E9ED;
 	font-size: 2rem;
 	margin-top: 1rem;
 	font-family: 'Roboto Slab', serif;
