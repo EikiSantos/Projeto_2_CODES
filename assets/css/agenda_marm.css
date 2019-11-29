@@ -17,26 +17,6 @@
 	font-size: 1.2rem;
 	color: #FFFFFF;
 }
-/*footer*/
-.barra-inferior{
-	display: flex;
-  	position: fixed;
-  	left: 0;
-  	bottom: 0;
-  	width: 100%;
-	justify-content: space-between;
-  	bottom: 0rem;
-	flex-direction: row;
-	background-color: #95B0FF;
-}
-
-.calendario,.sino,.carrinho{
-	justify-content: space-between;
-	padding: 0.3rem;
-	margin: 0.3rem;
-	width: 3rem;
-	height: 3rem;
-}
 
 /* fallback */
 @font-face {
@@ -104,6 +84,7 @@
 	background-color: #95B0FF;
 	margin-top: 1rem;
 	font-size: 2rem;
+	font-family: 'Roboto Slab', serif;
 }
 
 .hoje-text{
@@ -120,11 +101,13 @@
 .hoje1{
 	font-size: 1.1rem;
 	padding-top: 1rem;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .hoje2{
 	font-size: 1.1rem;
 	margin-top: 1rem;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .amanha-title{
@@ -138,6 +121,7 @@
 	background-color: #95B0FF;
 	font-size: 2rem;
 	margin-top: 1rem;
+	font-family: 'Roboto Slab', serif;
 }
 
 .quinta-text{
